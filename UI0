@@ -122,6 +122,7 @@ local TabButtons = Instance.new("ImageLabel")
 local TabButtonLayout = Instance.new("UIListLayout")
 
 UILibrary.Name = HttpService:GenerateGUID(false)
+syn.protect_gui(UILibrary)
 UILibrary.Parent = CoreGui
 UILibrary.DisplayOrder = 1
 UILibrary.ZIndexBehavior = Enum.ZIndexBehavior.Global
